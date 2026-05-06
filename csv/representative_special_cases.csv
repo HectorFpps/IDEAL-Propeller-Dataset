@@ -1,0 +1,5 @@
+case,reason,config_id,radius,blade count,m_total_kg,inner_solidity,mid_solidity,min_blade_abs_thickness_mm,T_over_W_static,h_max_m,flight_time_s,hover_time_s,v_max_up_m_s,T,Pshaft,FOM
+thinnest_propeller,"Minimum absolute blade thickness across inner, mid, and outer sections.",43,64,5,0.006905,0.675203,0.227956,1.0,0.54271,0.0,0.0,0.0,0.0,0.03676,0.3165,0.12542
+most_solid_inner_section,Maximum root-section solidity using the hub outer radius.,10,64,6,0.009564,0.694494,0.447623,1.2,2.152016,6.078548,3.878433,1.048925,4.073288,0.2019,1.864,0.27411
+most_solid_mid_section,Maximum mid-section solidity.,794,60,6,0.017086,0.578745,0.848826,1.2,1.319673,2.353037,3.612311,1.103594,1.534155,0.2212,0.7909,0.79022
+most_average_performance,Smallest standardized distance to the mean of the available performance metrics.,3011,69,6,0.011778,0.694494,0.726577,1.14,1.775957,5.604284,4.065781,1.126744,3.40344,0.2052,1.318,0.36842

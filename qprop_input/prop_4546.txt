@@ -1,0 +1,18 @@
+Propeller_4546
+5  0.06900  0.00825   ! Nblades  R_tip(m)  R_root(m)
+! Root station mode: hub
+
+! --- Global defaults: chord-weighted average of the three station data ---
+0.0680  4.0851   ! CL0  CL_a
+-0.3520  1.0511   ! CLmin  CLmax
+0.03038  0.13810  0.13810  -0.0550   ! CD0  CD2u  CD2l  CLCD0
+17546  -0.500   ! REref  REexp
+
+0.001  0.001  1.0   ! Rfac Cfac Bfac
+0.0    0.0    0.0   ! Radd Cadd Badd
+
+! r(mm) chord(mm) beta(deg) CL0 CL_a CLmin CLmax CD0 CD2u CD2l CLCD0 REref REexp
+   8.25       8.43      18.38   0.4587   7.0368  -0.1542   2.1630   0.00800   0.02000   0.02000   0.4587   10000  -0.500   ! hub  NACA 4215  Re 10000  tier inviscid
+  34.50      16.00       9.00  -0.0715   3.2098  -0.3923   0.7103   0.03927   0.13285   0.13285  -0.3259   15000  -0.500   ! mid  NACA 4314  Re 15000  tier viscous
+  69.00      14.00       6.00  -0.0078   3.3077  -0.4250   0.7710   0.03370   0.21523   0.21523  -0.0549   25000  -0.500   ! outer  NACA 3412  Re 25000  tier viscous
+

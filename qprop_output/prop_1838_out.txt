@@ -1,0 +1,6 @@
+
+ Given on line 2:  R =  0.7200E-01
+ Last r station :  r =  0.7200E-01
+
+ Must have  R > r
+
