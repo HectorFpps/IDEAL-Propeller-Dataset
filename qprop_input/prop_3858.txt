@@ -3,16 +3,16 @@ Propeller_3858
 ! Root station mode: hub
 
 ! --- Global defaults: chord-weighted average of the three station data ---
-0.1105  5.2186   ! CL0  CL_a
--0.3078  1.3669   ! CLmin  CLmax
-0.03938  0.10769  0.10769  0.0881   ! CD0  CD2u  CD2l  CLCD0
-17886  -0.500   ! REref  REexp
+0.1350  5.1357   ! CL0  CL_a
+-0.2611  1.2240   ! CLmin  CLmax
+0.04006  0.17544  0.17544  0.2023   ! CD0  CD2u  CD2l  CLCD0
+17828  -0.500   ! REref  REexp
 
 0.001  0.001  1.0   ! Rfac Cfac Bfac
 0.0    0.0    0.0   ! Radd Cadd Badd
 
 ! r(mm) chord(mm) beta(deg) CL0 CL_a CLmin CLmax CD0 CD2u CD2l CLCD0 REref REexp
-   8.25       9.92      16.60   0.8048   7.2149   0.1561   2.5299   0.00880   0.02000   0.02000   0.8048   10000  -0.500   ! hub  NACA 6419  Re 10000  tier inviscid
-  28.40      26.00      14.00  -0.2017   3.7727  -0.4630   0.7008   0.06432   0.17824   0.17824  -0.2422   20000  -0.500   ! mid  NACA 5317  Re 20000  tier viscous
-  71.00      11.00       4.00   0.2223   6.8358  -0.3595   1.8927   0.00800   0.02000   0.02000   0.2223   20000  -0.500   ! outer  NACA 2211  Re 20000  tier inviscid
+   8.25       8.33      22.87   0.9901   7.2909   0.3239   2.7216   0.00920   0.02000   0.02000   0.9901   10000  -0.500   ! hub  NACA 6621  Re 10000  tier inviscid
+  35.50      20.00      10.00  -0.2271   4.9543  -0.4331   0.7635   0.05570   0.19339   0.19339  -0.1218   20000  -0.500   ! mid  NACA 5617  Re 20000  tier viscous
+  71.00      10.00       6.00   0.1472   3.7042  -0.4042   0.8984   0.03446   0.26893   0.26893   0.1948   20000  -0.500   ! outer  NACA 4610  Re 20000  tier viscous
 
